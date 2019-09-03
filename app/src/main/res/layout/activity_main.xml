@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeffrey Jung"
+        android:textSize="55sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/font"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/font1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/font"
+        android:textSize="23sp"
+        android:textColor="@color/colorAccent"
+        android:text="from"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/font1"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:text="Momma Huang n Park"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="35sp"
+        android:textColor="@color/colorAccent"
+        android:text="NCT 127" />
+
+
+
+
+
+</RelativeLayout>
